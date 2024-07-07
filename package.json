@@ -1,6 +1,6 @@
 {
-  "name": "@rc-component/mini-decimal",
-  "version": "1.1.0",
+  "name": "rc-mini-decimal-modern",
+  "version": "1.1.1",
   "description": "Lite lib to only support decimal add calculation",
   "keywords": [
     "decimal"
@@ -31,7 +31,6 @@
     "lint": "eslint src/ --ext .tsx,.ts",
     "lint:tsc": "tsc -p tsconfig.json --noEmit",
     "now-build": "npm run docs:build",
-    "prepublishOnly": "npm run compile && np --no-cleanup --yolo --no-publish",
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
     "start": "dumi dev",
     "test": "umi-test",
